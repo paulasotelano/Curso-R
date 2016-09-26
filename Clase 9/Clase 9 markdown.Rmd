@@ -1,0 +1,27 @@
+---
+title: "R Markdown"
+author: "Paula"
+date: "23 de septiembre de 2016"
+output: pdf_document
+---
+**negrita**
+__negrita__
+*italica*
+_italica_
+~~tachado~~
+
+* item a
+* item b
+
+# Titulo
+## Titulito
+### nanotitulo
+
+```{r load_data, echo=FALSE, fig.width=11 }
+library(ggplot2)
+gapminder <- read.csv("../Data/gapminder-FiveYearData.csv")
+ggplot(data = gapminder, aes(x = gdpPercap, y = lifeExp)) +
+  geom_point()
+```
+
+

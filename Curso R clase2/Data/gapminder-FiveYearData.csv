@@ -1703,8 +1703,3 @@ Zimbabwe,1992,10704340,Africa,60.377,693.4207856
 Zimbabwe,1997,11404948,Africa,46.809,792.4499603
 Zimbabwe,2002,11926563,Africa,39.989,672.0386227
 Zimbabwe,2007,12311143,Africa,43.487,469.7092981
-
-mi_suma <- function(a, b) {
-  suma <- a + b
-  return(suma)
-}
